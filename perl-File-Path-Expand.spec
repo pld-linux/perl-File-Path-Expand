@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Path-Expand
+%define		pdir	File
+%define		pnam	Path-Expand
 Summary:	File::Path::Expand - expand filenames
 Summary(pl):	File::Path::Expand - rozwijanie nazw plików
 Name:		perl-File-Path-Expand
