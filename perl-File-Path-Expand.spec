@@ -11,7 +11,7 @@ Name:		perl-File-Path-Expand
 Version:	1.01
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6f09799e04a24fbb2879e5e18437ebdf
