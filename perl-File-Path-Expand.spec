@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	Path-Expand
 Summary:	File::Path::Expand - expand filenames
-Summary(pl):	File::Path::Expand - rozszerzanie nazw plików
+Summary(pl):	File::Path::Expand - rozwijanie nazw plików
 Name:		perl-File-Path-Expand
 Version:	1.01
 Release:	1
@@ -29,7 +29,7 @@ simple case it's no more complex than s{^~/}{$HOME/}, but for other
 cases it consults getpwent and does the right thing.
 
 %description -l pl
-File::Path::Expand rozszerza katalogi u¿ytkownika w nazwach plików. W
+File::Path::Expand rozwija katalogi u¿ytkownika w nazwach plików. W
 prostym przypadku nie jest to bardziej skomplikowane od
 s{^~/}{$HOME/}, ale w innych wykorzystywana jest funkcja getpwent, aby
 zrobiæ to co trzeba.
