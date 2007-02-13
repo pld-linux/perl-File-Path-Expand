@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Path-Expand
 Summary:	File::Path::Expand - expand filenames
-Summary(pl.UTF-8):   File::Path::Expand - rozwijanie nazw plików
+Summary(pl.UTF-8):	File::Path::Expand - rozwijanie nazw plików
 Name:		perl-File-Path-Expand
 Version:	1.02
 Release:	1
