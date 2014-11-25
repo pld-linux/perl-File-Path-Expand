@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	File
 %define		pnam	Path-Expand
+%include	/usr/lib/rpm/macros.perl
 Summary:	File::Path::Expand - expand filenames
 Summary(pl.UTF-8):	File::Path::Expand - rozwijanie nazw plików
 Name:		perl-File-Path-Expand
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	742aa40a4ffb26d14de01192764bd7ab
+URL:		http://search.cpan.org/dist/File-Path-Expand/
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
 %endif
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
