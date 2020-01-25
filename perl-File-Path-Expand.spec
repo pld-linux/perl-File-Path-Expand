@@ -4,7 +4,6 @@
 
 %define		pdir	File
 %define		pnam	Path-Expand
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::Path::Expand - expand filenames
 Summary(pl.UTF-8):	File::Path::Expand - rozwijanie nazw plików
 Name:		perl-File-Path-Expand
