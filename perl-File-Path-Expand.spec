@@ -8,7 +8,7 @@ Summary:	File::Path::Expand - expand filenames
 Summary(pl.UTF-8):	File::Path::Expand - rozwijanie nazw plików
 Name:		perl-File-Path-Expand
 Version:	1.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
